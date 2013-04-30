@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewLivingRoom"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:text="@string/living_room"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchLightLivingRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onToggleClickedLivingRoom"
+        android:text="@string/room_1_light"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewHall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/RoomSpacing"
+        android:text="@string/hall"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchLightHall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onToggleClickedHall"
+        android:text="@string/room_1_light"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewBedRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/RoomSpacing"
+        android:text="@string/bedroom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchLightBedroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onToggleClickedBedroom"
+        android:text="@string/room_1_light"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewBathroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/RoomSpacing"
+        android:text="@string/bathroom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchLightBathroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onToggleClickedBathroom"
+        android:text="@string/room_1_light"
+        android:textColor="@color/white" />
+
+</LinearLayout>

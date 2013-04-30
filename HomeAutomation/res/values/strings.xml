@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HomeAutomation</string>
+    <string name="action_settings">Settings</string>
+    <string name="light_control">Lighting Control</string>
+    <string name="light_bulb_button">Light bulb button</string>
+    <string name="security_control">Security Control</string>
+    <string name="single_menu_activity">Access List Entry</string>
+    <string name="security_control_button">Security control button</string>
+    <string name="living_room">Living Room</string>
+    <string name ="bedroom">Bedroom</string>
+    <string name ="bathroom">Bathroom</string>
+    <string name ="hall">Hall</string>
+    <string name="room_1_light">Light On/Off</string>
+    <string name="access_list">Access List</string>
+    <string name="security_title">Security Control</string>
+    <string name="lighting_title">Lighting Control</string>
+    <string name="main_title">Home  Automation</string>
+    <string name="add_person">Add person to access list</string>
+    <string name="add_person_title">Add Person</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="save">Save</string>
+    <string name="delete_user">Delete user</string>
+    <string name="allow_user">Allow user</string>
+    <string name="disallow_user">Disallow user</string>
+    <string name="take_picture">Take picture</string>
+    <string name="photo">photo</string>
+    <string name="ip">IP address</string>
+    <string name="port">Port</string>
+    <string name="allowed">Allowed Entry</string>
+    <string name="text">text</string>
+    <string name="settings">Settings</string>
+    <string name="notification_known">Someone is at the door!</string>
+    <string name="notification_unknown">Someone is at the door!</string>
+    <string name="person_photo">Person photo</string>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+
+</resources>

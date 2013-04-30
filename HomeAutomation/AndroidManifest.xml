@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homeautomation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission 
+        android:name="android.permission.INTERNET"/>
+    <uses-permission 
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/main_title"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.homeautomation.MainActivity"
+            android:label="@string/main_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="LightingActivity"
+            	  android:label="@string/lighting_title"/>
+        <activity android:name="SecurityActivity"
+                  android:label="@string/security_title"/>
+        <activity android:name="AddPerson"
+            	  android:label="@string/add_person_title"/>
+        <activity android:name="SingleMenuItemActivity"
+            	  android:label="@string/single_menu_activity"/>
+        <activity android:name="Settings"
+            	  android:label="@string/settings"/>
+        <activity android:name="NotificationKnown"
+            	  android:label="@string/notification_known"/>
+        <activity android:name="NotificationUknown"
+            	  android:label="@string/notification_unknown"/>
+    </application>
+
+</manifest>
